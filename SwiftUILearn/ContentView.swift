@@ -10,15 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack (alignment: .leading) {
-            Text("Birds")
+            Text("Animals")
                 .font(.title)
                 .fontWeight(.bold)
             HStack {
-                Text("Eagle")
+                Text("Black Eagle")
                     .font(.subheadline)
                 Spacer()
                     .frame(width: 35)
-                Text("Seagle")
+                Text("Bird")
                     .font(.subheadline)
             }
                
