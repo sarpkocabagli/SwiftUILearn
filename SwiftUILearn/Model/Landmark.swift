@@ -11,12 +11,21 @@ import CoreLocation
 
 struct Landmark: Hashable, Codable, Identifiable {
     
+    var isFeatured: Bool
     var isFavorite: Bool
     var id: Int
     var name: String
     var park: String
     var state: String
     var description: String
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+    }
     
     private var imageName: String
     

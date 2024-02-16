@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11F7A112B7E3E3900B221B0 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F7A102B7E3E3900B221B0 /* CategoryHome.swift */; };
+		D11F7A132B7E519D00B221B0 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F7A122B7E519D00B221B0 /* CategoryRow.swift */; };
+		D159B95D2B7F4EAA00AA1EBF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159B95C2B7F4EAA00AA1EBF /* CategoryItem.swift */; };
 		D163AE792B7B5E8A0046FBF2 /* SwiftUILearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AE782B7B5E8A0046FBF2 /* SwiftUILearnApp.swift */; };
 		D163AE7B2B7B5E8A0046FBF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AE7A2B7B5E8A0046FBF2 /* ContentView.swift */; };
 		D163AE7D2B7B5E8D0046FBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D163AE7C2B7B5E8D0046FBF2 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D11F7A102B7E3E3900B221B0 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		D11F7A122B7E519D00B221B0 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		D159B95C2B7F4EAA00AA1EBF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		D163AE752B7B5E8A0046FBF2 /* SwiftUILearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D163AE782B7B5E8A0046FBF2 /* SwiftUILearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearnApp.swift; sourceTree = "<group>"; };
 		D163AE7A2B7B5E8A0046FBF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +111,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D11F7A0F2B7E3E2000B221B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D11F7A102B7E3E3900B221B0 /* CategoryHome.swift */,
+				D11F7A122B7E519D00B221B0 /* CategoryRow.swift */,
+				D159B95C2B7F4EAA00AA1EBF /* CategoryItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		D163AE6C2B7B5E8A0046FBF2 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +163,7 @@
 		D163AEAC2B7B9F570046FBF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D11F7A0F2B7E3E2000B221B0 /* Categories */,
 				D1DB80F22B7D030200722209 /* Hikes */,
 				D1DB80ED2B7CFD0100722209 /* Badges */,
 				D1DB80E22B7CA5D100722209 /* Landmarks */,
@@ -350,13 +367,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11F7A132B7E519D00B221B0 /* CategoryRow.swift in Sources */,
 				D163AE7B2B7B5E8A0046FBF2 /* ContentView.swift in Sources */,
+				D11F7A112B7E3E3900B221B0 /* CategoryHome.swift in Sources */,
 				D1DB80F82B7D030200722209 /* HikeGraph.swift in Sources */,
 				D163AEA52B7B794C0046FBF2 /* MapView.swift in Sources */,
 				D163AE792B7B5E8A0046FBF2 /* SwiftUILearnApp.swift in Sources */,
 				D1DB80F72B7D030200722209 /* GraphCapsule.swift in Sources */,
 				D1DB80E02B7CA43D00722209 /* FavoriteButton.swift in Sources */,
 				D163AEB22B7BA59D0046FBF2 /* LandmarkList.swift in Sources */,
+				D159B95D2B7F4EAA00AA1EBF /* CategoryItem.swift in Sources */,
 				D1DB80F92B7D030200722209 /* HikeDetail.swift in Sources */,
 				D1DB80EA2B7CF50400722209 /* RotatedBadgeSymbol.swift in Sources */,
 				D1DB80F12B7CFF3900722209 /* Hike.swift in Sources */,
